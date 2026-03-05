@@ -14,9 +14,11 @@ Works in both **Claude Desktop (CoWork)** and **Claude Code**.
 
 ## Install in Claude Code
 
-```bash
-claude plugin marketplace add ccdsky/ascii-mockup-plugin
-claude plugin install ascii-mockup@ascii-mockup-plugin
+Run these commands from within Claude Code:
+
+```
+/plugin marketplace add ccdsky/ascii-mockup-plugin
+/plugin install ascii-mockup@ccdsky-ascii-mockup-plugin
 ```
 
 ## Plugins
