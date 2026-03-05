@@ -1,0 +1,8 @@
+{
+  "name": "ascii-mockup",
+  "version": "1.0.0",
+  "description": "Create ASCII wireframes, dashboards, system diagrams, data schemas, and slide deck layouts for visual planning and iteration before building.",
+  "author": {
+    "name": "Chris Cappelli"
+  }
+}
