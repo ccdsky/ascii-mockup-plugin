@@ -15,14 +15,8 @@ Works in both **Claude Desktop (CoWork)** and **Claude Code**.
 ## Install in Claude Code
 
 ```bash
-cp -r ascii-mockup/skills/ascii-mockup ~/.claude/skills/ascii-mockup
-```
-
-Or clone and copy:
-
-```bash
-git clone https://github.com/ccdsky/ascii-mockup-plugin
-cp -r ascii-mockup-plugin/ascii-mockup/skills/ascii-mockup ~/.claude/skills/
+claude plugin marketplace add ccdsky/ascii-mockup-plugin
+claude plugin install ascii-mockup@ascii-mockup-plugin
 ```
 
 ## Plugins
