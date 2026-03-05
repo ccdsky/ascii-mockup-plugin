@@ -38,16 +38,26 @@ If the user's request is specific enough to proceed, start immediately. If key l
 Load `references/ascii-patterns.md` to use the correct symbols and conventions for the domain.
 
 Rules for all mockups:
+- **Maximum line width is 80 characters** — no line in the output may exceed 80
+  characters. Stack sections vertically rather than side-by-side if needed to
+  stay within this limit.
 - Use box-drawing characters (`┌ ─ ┐ │ └ ┘ ├ ┤ ┬ ┴ ┼`) for borders and structure
 - Label every region, section, or component clearly
-- Show proportions and relative sizing — wider/taller elements should visually appear so
-- Use placeholder content (`[Chart: Revenue Over Time]`, `[Hero Image]`, `id INT PK`) — never leave regions blank
-- For UI: annotate key color intent with inline comments like `← green` or `← sidebar bg`
-- For slides: number each slide and show a rough content block layout inside a labeled box
-- For schemas: show table name as header, columns as rows, PK/FK annotated, and relationship arrows between tables
-- For system diagrams: show components as boxes with labeled arrows indicating data/control flow
+- Show proportions and relative sizing — wider/taller elements should visually
+  appear so
+- Use placeholder content (`[Chart: Revenue Over Time]`, `[Hero Image]`,
+  `id INT PK`) — never leave regions blank
+- For UI: annotate key color intent with inline comments like `← green` or
+  `← sidebar bg`
+- For slides: number each slide and show a rough content block layout inside a
+  labeled box
+- For schemas: show table name as header, columns as rows, PK/FK annotated, and
+  relationship arrows between tables
+- For system diagrams: show components as boxes with labeled arrows indicating
+  data/control flow
 
-Output the mockup in a single fenced code block using plain text (no syntax highlighting).
+Output the mockup in a single fenced code block using plain text (no syntax
+highlighting).
 
 ### Step 3: Pause and Ask for Changes
 
